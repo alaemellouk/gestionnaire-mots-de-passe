@@ -76,8 +76,6 @@ const translations = {
       errorGeneric: "Une erreur est survenue lors de la vérification.",
       successLogin: "Votre compte a été créé avec succès. Vous pouvez vous connecter.",
       backToRegister: "Retour à l'inscription",
-      checkRealInbox:
-        "Pour votre sécurité, le code n’est jamais affiché ici : consultez uniquement la boîte mail indiquée (y compris les spams). Il expire après 10 minutes.",
     },
     dashboard: {
       title: "Tableau de bord",
@@ -227,7 +225,6 @@ const translations = {
       subtitle: "Récupération sécurisée.",
       descEmail: "Recevez un code pour réinitialiser votre mot de passe.",
       descCode: "Vérifiez votre identité avec le code reçu.",
-      descPass: "Créez un nouveau mot de passe fort et unique.",
       emailLabel: "Adresse email",
       emailPlaceholder: "vous@exemple.com",
       codeLabel: "Code de vérification",
@@ -244,7 +241,6 @@ const translations = {
       emailDescription: "Entrez votre adresse email pour recevoir un code de vérification.",
       codeSent: "Un code de vérification a été envoyé à",
       changeEmail: "Changer d'adresse e-mail",
-      createPass: "Créez votre nouveau mot de passe.",
       errorInvalidEmail: "Cette adresse email est invalide ou n'existe pas.",
       errorSendNetwork:
         "Impossible de joindre le serveur de l'application. Votre connexion Internet peut être correcte ; en local, vérifiez que l'API est démarrée (souvent http://127.0.0.1:8000).",
@@ -525,8 +521,6 @@ const translations = {
       errorGeneric: "An error occurred during verification.",
       successLogin: "Your account was created successfully. You can log in now.",
       backToRegister: "Back to sign up",
-      checkRealInbox:
-        "For your security, the code is never shown here: check only the email address above (including spam). It expires after 10 minutes.",
     },
     dashboard: {
       title: "Dashboard",
@@ -673,7 +667,6 @@ const translations = {
       subtitle: "Secure Recovery",
       descEmail: "Receive a code to reset your password.",
       descCode: "Verify your identity with the code received.",
-      descPass: "Create a new strong and unique password.",
       emailLabel: "Email address",
       emailPlaceholder: "you@example.com",
       codeLabel: "Verification code",
@@ -690,7 +683,6 @@ const translations = {
       emailDescription: "Enter your email address to receive a verification code.",
       codeSent: "A verification code has been sent to",
       changeEmail: "Change email address",
-      createPass: "Create your new password.",
       errorInvalidEmail: "This email address is invalid or does not exist.",
       errorSendNetwork:
         "Could not reach the application server. Your internet may be fine; if you run the stack locally, ensure the API is running (often http://127.0.0.1:8000).",

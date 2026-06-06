@@ -91,10 +91,6 @@ export default function RegisterVerify() {
           {t("registerVerify.subtitle")} <strong>{email}</strong>.
         </p>
 
-        <p className="auth-card__subtitle auth-card__subtitle--hint">
-          {t("registerVerify.checkRealInbox")}
-        </p>
-
         <div className="auth-form-container">
           <form className="auth-form" onSubmit={handleVerify}>
             <div className="auth-field">

@@ -167,9 +167,6 @@ export default function ForgotPassword() {
         </div>
 
         <h2 className="auth-card__title">{t("forgotPassword.title")}</h2>
-        {step === 3 ? (
-          <p className="auth-card__subtitle">{t("forgotPassword.descPass")}</p>
-        ) : null}
 
         <div className="auth-form-container">
           {step === 1 && (
@@ -285,10 +282,6 @@ export default function ForgotPassword() {
 
           {step === 3 && (
             <form className="auth-form" onSubmit={handlePasswordSubmit}>
-              <p style={{ color: "var(--text-secondary)", fontSize: "14px", margin: "0 0 8px", lineHeight: 1.45 }}>
-                {t("forgotPassword.createPass")}
-              </p>
-
               <div className="auth-field">
                 <label className="auth-field__label" htmlFor="forgot-pass">
                   {t("forgotPassword.passLabel")}
